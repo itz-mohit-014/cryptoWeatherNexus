@@ -19,7 +19,7 @@ export function DashboardPage() {
 
     dispatch(fetchWeatherData())
     dispatch(fetchInitialCryptoData());
-  // dispatch(fetchNewsData())
+    dispatch(fetchNewsData())
 
   }, [dispatch])
 
